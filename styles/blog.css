@@ -15,7 +15,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 64;
-padding: 80px 100px 80px 100px;
+padding: 80px 0px 80px 100px;
 order: 0;
 flex-grow: 0;
 margin: 80px 0px;
@@ -43,11 +43,9 @@ text-align: left;
 margin-top: 162px;
 margin-bottom: 197;
 margin-left: 60px;
-/* Idea , innovation , vision and challenges in New Bangladesh. */
 position: static;
 width: 622px;
 height: 201px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -85,7 +83,231 @@ text-align: left;;
 position: static;
 width: 474.03px;
 height: 400px;
+margin: 0px 64px;
+}
+.text-center{
+    text-align: center;
+}
+.vision{
+    /* Frame 2087325504 */
+position: static;
+width: 1280px;
+height: 765px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+
+margin: 80px 0px;
+}
+.vision-image{
+    /* Frame 2087325500 */
+position: static;
+width: 1280px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.vision-image-1{
+    /* Frame 2087325495 */
+position: static;
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+
+}
+.vision-image-2{
+    /* Frame 2087325499 */
+position: static;
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+.vision-image-3{
+    /* Frame 2087325500 */
+position: static;
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 24px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+.vision-1-button{
+    /* Frame 2 */
+position: static;
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 8px;
+
+background: rgb(84, 144, 245);
+/* Learn More */
+position: static;
+width: 82px;
+height: 19px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 48px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border:none
+}
+.vision-2-button{
+    /* Frame 2 */
+position: static;
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+
+
+/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
+margin: 10px 0px;
+border-radius: 8px;
+border: none;
+
+background: rgb(9, 161, 92);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision-3-button{
+    /* Frame 2 */
+position: static;
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 10px 0px;
+border-radius: 8px;
+border: none;
+
+background: rgb(255, 194, 57);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
 }
