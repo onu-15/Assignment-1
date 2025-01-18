@@ -1,3 +1,4 @@
+
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-optical-sizing: auto;
@@ -242,12 +243,6 @@ flex-grow: 0;
 margin: 0px 48px;
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
-font-size: 16px;
-font-weight: 600;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-border:none
 }
 .vision-2-button{
     /* Frame 2 */
@@ -311,3 +306,535 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 }
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+
+position: static;
+width: 1232px;
+height: 96px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.quoter{
+    /* Dr. Muhammad Yunus */
+position: static;
+width: 1232px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 4;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.designation{
+    /* Chief Adviser of the People's Republic of Bangladesh */
+position: static;
+width: 1232px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 4;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
+color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.satelite{
+    /* image 3 */
+position: static;
+width: 408px;
+height: 306px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+border-radius: 24px;
+}
+.info{
+    /* Frame 2087325509 */
+position: static;
+width: 1280px;
+height: 402px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.heading{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.sat-button{
+    /* Frame 2087325506 */
+position: static;
+width: 139px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 13px 26px 13px 26px;
+
+
+/* Inside Auto Layout */
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+
+}
+.donation{
+    /* Frame 2087325516 */
+position: static;
+width: 1280px;
+height: 464px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 80px 0px;
+}
+.donate-title{
+    /* Donate Today */
+position: static;
+width: 1280px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+margin: 24px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+.donate-description{
+    /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure. */
+position: static;
+width: 1104px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-amount{
+    /* Frame 2087325513 */
+    position: static;
+width: 240px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+gap: 20;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+
+}
+.donate-style{
+    display: flex;
+}
+.amount-form{
+    /* Frame 2087325514 */
+position: static;
+width: 1032px;
+height: 64px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.donate-btn{
+    /* Frame 2 */
+position: static;
+width: 151px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+
+
+/* inside display */
+display: flex;
+margin: 0px 48px;
+
+color: rgb(255, 255, 255);
+}
+.amount-2{
+    background-color: rgb(198, 228, 214);
+}
+.subscribe{
+    /* Frame 3 */
+position: static;
+width: 1000px;
+height: 235px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 80px 100px 80px 100px;
+font-family: Fira Sans;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 64px;
+
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+}
+.sub-title{
+    /* Subscribe Newsletter */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sub-description{
+    /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth. */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+    .subscribe-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 500px; /* Adjust the max-width as needed */
+        border: 2px solid #d8ebe3; /* Light green border */
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .subscribe-input {
+        flex: 1; /* Takes up available space */
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: #666; /* Gray text color */
+    }
+
+    .subscribe-input::placeholder {
+        color: #ccc; /* Placeholder color */
+    }
+
+    .subscribe-button {
+        background-color: #006d52; /* Dark green background */
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sub-para-2{
+        color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+/* We promise not to spam you! */
+position: static;
+width: 622px;
+height: 19px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+    }
+   .foot-title{
+    /* Bangladesh 2.0 */
+position: static;
+width: 222px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+   }
+   .foot-icons{
+    /* Bangladesh 2.0 */
+position: static;
+width: 222px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+   }
+   .footers{
+    /* Frame 2087325621 */
+position: static;
+width: 1600px;
+height: 226px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 50px 160px 50px 160px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+margin: 80px 0px;
+background: rgb(255, 255, 255);
+/* Line 1 */
+position: static;
+width: 1122px;
+height: 0;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+border: 1px solid rgba(14, 14, 14, 0.1);
+   }
+
